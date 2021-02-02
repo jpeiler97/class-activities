@@ -1,0 +1,34 @@
+body {
+    line-height: 1.7em;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+}
+
+.box {
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.relative-light-gray {
+    background-color: #eee;
+    position: relative;
+    height: 150px;
+}
+
+.absolute-dark-gray {
+    background-color: #999;
+    position: absolute;
+    bottom: 0;
+    right: -40px;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #eee;
+}
